@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Users";
+}
+
+
+
+<div class="text-center">
+
+
+</div>
+
+<div>
+    @await Component.InvokeAsync("UserComponent", new { limit = 10, skip = 20 })
+</div>

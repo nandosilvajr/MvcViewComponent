@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Products";
+}
+
+
+
+<div class="text-center">
+
+
+</div>
+<div>
+    @await Component.InvokeAsync("MyComponent", new { limit = 10, skip = 20 })
+</div>
